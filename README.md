@@ -18,10 +18,3 @@ use of short url using http://m instead of long url<i>(m=https://youtube.com)</i
 ### Direct url: 
 Use to set dynamic aliases. <i>u/###</i> (Alias) -> <i>http://github.com/rahulworld/url-shorter</i> (Redirect)</li>
 
-#### Aliases synced with Google Account
-
-All settings are synced with Google and available even if you change computers.
-
-## License
-
-Apache 2.0
