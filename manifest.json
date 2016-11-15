@@ -7,7 +7,7 @@
 
   "name": "Url Shorter",
   "author": "Rahul Chauhan",
-   "homepage_url": "https://github.com/rahulworld/url-alias",
+   "homepage_url": "https://github.com/rahulworld/url-shorter",
   "description": "make short url",
   "version": "1.0",
 
@@ -21,6 +21,6 @@
       "16": "ic_launcher8.png"
    },
    "options_page": "default_file.html",
-   "homepage_url": "https://github.com/rahulworld/url-alias",
+   "homepage_url": "https://github.com/rahulworld/url-shorter",
   "permissions": [ "tabs", "storage" ]
 }
