@@ -16,7 +16,7 @@ A Chrome extension tool to set URL shorter and aliases.
 ### Indirect url: 
 use of short url using http://m instead of long url<i>(m=https://youtube.com)</i> </li>
 ### Direct url: 
-Use to set dynamic aliases. <i>u/###</i> (Alias) -> <i>http://github.com/rahulworld/url-alias</i> (Redirect)</li>
+Use to set dynamic aliases. <i>u/###</i> (Alias) -> <i>http://github.com/rahulworld/url-shorter</i> (Redirect)</li>
 
 #### Aliases synced with Google Account
 
