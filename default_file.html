@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>URL Shortner</title>
+  </head>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="options.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <style>
+
+    body {
+    color: #303942;
+    }
+    .content {
+    border-radius: 2px;
+    padding: 40px 56px;
+    margin-bottom: 80px;
+    }
+    #data {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    }
+    #data td {
+    text-align: center;
+    }
+    #data td input {
+    width: 80%;
+    }
+    #status {
+    margin-left: 30px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div >
+        <h2>
+        Url Shortner and Alias</h3>
+        <p>Code & Issues</p>
+        <p>
+          If you are a developer and you wish to contribute to the app please fork the project
+          and submit a pull request.<br>
+          If you have any questions, feel free to ask <a href="mailto:rahulnitsxr@gmail.com" target="_top">Me (rahulnitsxr@gmail.com) </a> about whatever you want.<br>
+          <a href="https://github.com/rahulworld/url-alias/issues">Here is the list of known issues.</a>
+        </p>
+        <b>Rule</b>
+        <ul>
+          <li>Indirect use use of short url using http://m instead of long url<i>(m=https://youtube.com)</i> </li>
+          <li>Direct url: Use <i></i> to set dynamic aliases. <i>u/###</i> (Alias) -> <i>http://github.com/rahulworld/url-alias</i> (Redirect)</li>
+        </ul>
+        <table id="data">
+          <thead>
+            <tr>
+              <th width="30%">Alias</th>
+              <th width="60%">Redirect to</th>
+              <th width="10%">Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <button id="newUrl" type="button" class="btn btn-warning">Add New Url</button>
+        <button id="save" type="button" class="btn btn-warning">Save Changes</button><span id="status"></span>
+      </div>
+    </div>
+  </body>
+</html>

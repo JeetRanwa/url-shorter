@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "storefile.js" ]
+   },
+  "manifest_version": 2,
+
+  "name": "Url Shorter",
+  "author": "Rahul Chauhan",
+   "homepage_url": "https://github.com/rahulworld/url-alias",
+  "description": "make short url",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ic_launcher.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+      "128": "ic_launcher.png",
+      "96": "ic_launcher16.png",
+      "16": "ic_launcher8.png"
+   },
+   "options_page": "default_file.html",
+   "homepage_url": "https://github.com/rahulworld/url-alias",
+  "permissions": [ "tabs", "storage" ]
+}
